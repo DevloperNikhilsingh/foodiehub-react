@@ -9,7 +9,7 @@ import Blog from './components/Blog'
 import Menu from './components/Menu'
 import MainLayout from './Layout'
 import About from './components/About'
-import Cart from './components/cart'
+import Cart from './components/Cart'
 import Login from './components/login'
 
 
