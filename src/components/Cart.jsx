@@ -12,7 +12,7 @@ function Cart() {
       
 
       {cartItems.length === 0 ? (
-        <p>Your cart is empty</p>
+        <p>Your cart is empty. Let’s add something delicious 🍕”</p>
       ) : (
         cartItems.map((item, index) => (
           <div key={index} className="p-4 shadow-lg ">

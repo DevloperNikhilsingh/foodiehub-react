@@ -9,7 +9,7 @@ import Blog from './components/Blog'
 import Menu from './components/Menu'
 import MainLayout from './Layout'
 import About from './components/About'
-import Cart from './components/Cart'
+import Cart from './components/cart'
 import Login from './components/login'
 
 
@@ -38,7 +38,7 @@ const router = createBrowserRouter([
                 element: <About />
             },
             {
-                path: "/cart", element: <Cart /> 
+                path: "cart", element: <Cart /> 
             },
             {
                 path: "login",

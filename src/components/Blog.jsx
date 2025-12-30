@@ -26,9 +26,14 @@ function Blog() {
                             className="w-[255px] h-[255px] mb-4" />
                         <h4 className='text-xl font-semibold text-left'>The Ultimate Guide to Modern JavaScript</h4>
                         <p className='text-left'>competion for guide for Devlopers</p>
-                        <div className="flex flex-row justify-start space-x-1.5">
+                        <div className="relative group flex flex-row justify-start space-x-1.5">
                             <a href="#" className='text-blue-500 text-left'>Read More </a>
                             <img src="/right-arrow-svgrepo-com.svg" alt="" className='w-4' />
+                            <div className="absolute left-0 top-6 opacity-0 group-hover:opacity-100 scale-95 shadow-lg group-hover:scale-100 transition-all duration-300 bg-white rounded-md p-2 flex gap-2 z-10">
+                                <img src="facebook-176-svgrepo-com.svg" alt="" className='w-5 h-5 rounded-full cursor-pointer hover:scale-110 transition' />
+                                <img src="instagram-svgrepo-com.svg" alt="" className='w-5 h-5 rounded-full hover:scale-110 transition cursor-pointer' />
+                                <img src="linkedin-svgrepo-com.svg" alt="" className='w-5 h-5 rounded-full hover:scale-110 transition cursor-pointer' />
+                            </div>
                         </div>
                     </div>
                     {/* card-2 */}
@@ -39,9 +44,16 @@ function Blog() {
                             className="w-[255px] h-[255px] mb-4" />
                         <h4 className='text-xl font-semibold text-left'>The Ultimate Guide to Modern JavaScript</h4>
                         <p className='text-left'>competion for guide for Devlopers</p>
-                        <div className="flex flex-row justify-start space-x-1.5">
+                        <div className="relative group flex flex-row justify-start space-x-1.5">
                             <a href="#" className='text-blue-500 text-left'>Read More </a>
                             <img src="/right-arrow-svgrepo-com.svg" alt="" className='w-4' />
+
+                            <div className='absolute left-0 top-6 opacity-0 group-hover:opacity-100 scale-95
+                            shadow-lg group-hover:scale-100 transition-all flex gap-2 p-2 z-10 bg-white rounded-lg'>
+                                <img src="facebook-176-svgrepo-com.svg" alt="" className='w-5 h-5 rounded-full cursor-pointer hover:scale-110 transition' />
+                                <img src="instagram-svgrepo-com.svg" alt="" className='w-5 h-5 rounded-full hover:scale-110 transition cursor-pointer' />
+                                <img src="linkedin-svgrepo-com.svg" alt="" className='w-5 h-5 rounded-full hover:scale-110 transition cursor-pointer' />
+                            </div>
                         </div>
                     </div>
                     {/* card-3 */}
@@ -50,9 +62,14 @@ function Blog() {
                             className="w-[255px] h-[255px] mb-4" />
                         <h4 className='text-xl font-semibold text-left'>The Ultimate Guide to Modern JavaScript</h4>
                         <p className='text-left'>competion for guide for Devlopers</p>
-                        <div className="flex flex-row justify-start space-x-1.5">
+                        <div className="relative group flex flex-row justify-start space-x-1.5">
                             <a href="#" className='text-blue-500 text-left'>Read More </a>
                             <img src="/right-arrow-svgrepo-com.svg" alt="" className='w-4' />
+                            <div className='absolute left-0 top-6 opacity-0 group-hover:opacity-100 shadow-lg scale-95 group-hover:scale-110 transition-all z-10 bg-white rounded-lg flex gap-2 p-2'>
+                                <img src="facebook-176-svgrepo-com.svg" alt="" className='w-5 h-5 rounded-full cursor-pointer hover:scale-110 transition' />
+                                <img src="instagram-svgrepo-com.svg" alt="" className='w-5 h-5 rounded-full hover:scale-110 transition cursor-pointer' />
+                                <img src="linkedin-svgrepo-com.svg" alt="" className='w-5 h-5 rounded-full hover:scale-110 transition cursor-pointer' />
+                            </div>
                         </div>
                     </div>
                 </div>

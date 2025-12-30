@@ -13,7 +13,7 @@ function Home() {
     useEffect(() => {
         const interval = setInterval(() => {
             setShowFirst(prev => !prev);
-        }, 10000);
+        }, 8000);
 
         return () => clearInterval(interval);
     }, []);
@@ -344,11 +344,56 @@ function Home() {
                 </div>
             </div>
 
+            {/* OUR ACIEVEMENT  */}
 
-            <div className="mt-14 p-2 border-b-2 bg-gray-300 flex flex-col text-center md:text-center space-y-2" data-aos="fade-up">
-                <h1 className='text-4xl font-semibold font-arial text-center'>Book a Table for Dinner</h1>
-                <p className='text-[13px] p-4 font-semibold font-arial text-center'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex temporibus molestias obcaecati iure animi.</p>
-                <form action="#" className='flex flex-col justify-center items-center space-y-3'>
+            <div className='m-auto'>
+                <div className='flex items-center mt-6 justify-center'>
+                    <p className="text-sm">⭐ </p>
+                    <p className="text-sm">⭐ </p>
+                    <h1 className='text-xl text-center font-semibold underline mr-2 ml-2'>Our Achievements</h1>
+                    <p className="text-sm">⭐ </p>
+                    <p className="text-sm">⭐ </p>
+                </div>
+
+                <div className=' p-2 grid grid-cols-2 md:grid-cols-4 gap-8 mt-8 px-5'>
+                    {/* BOX-1 */}
+                    <div className='p-6 rounded-lg shadow-md flex flex-col items-center transition-all duration-300 hover:scale-101' data-aos="fade-up">
+                        <img src="/trophy.jpeg" alt=""  className='w-20 h-20 rounded-lg mb-4 mt-2'/>
+                        <h3 className='text-4xl text-center font-bold text-orange-400'>10+</h3>
+                        <p className='mt-2 text-gray-800 font-semibold text-center '>Year of experience</p>
+                    </div>
+
+                    {/* BOX-2 */}
+                    <div className='p-6  rounded-lg shadow-md flex flex-col items-center transition-all duration-300 hover:scale-101' data-aos="fade-up">
+                         <img src="/order.jpeg" alt=""  className='w-20 h-20 rounded-lg mb-4 mt-2'/>
+                        <h3 className='text-4xl text-center font-bold text-orange-400'>1000+</h3>
+                        <p className='mt-2 text-center text-gray-800 font-semibold'>Order per day</p>
+                    </div>
+
+                    {/* BOX-3 */}
+                    <div className='p-6 rounded-lg shadow-md flex flex-col items-center transition-all duration-300 hover:scale-101' data-aos="fade-up">
+                        <img src="/rating.jpeg" alt=""  className='w-20 h-20 rounded-lg mb-4 mt-2'/>
+                        <h3 className='text-4xl text-center font-bold text-orange-400'>4.8/5</h3>
+                        <p className='mt-2 text-gray-800 font-semibold text-center'>Average Rating</p>
+                    </div>
+
+                    {/* BOX-4 */}
+                    <div className='p-6  rounded-lg shadow-md flex flex-col items-center transition-all duration-300 hover:scale-101' data-aos="fade-up">
+                        <img src="/location.jpeg" alt=""  className='w-20 h-20 rounded-lg mb-4 mt-2'/>
+                        <h3 className='text-4xl text-center font-bold text-orange-400'>50+</h3>
+                        <p className='mt-2 text-center text-gray-800 font-semibold'>Location Served</p>
+                    </div>
+
+                </div>
+            </div>
+
+
+
+
+            <div className="mt-14 p-2 border-b-2 bg-gray-300 flex flex-col text-center md:text-center space-y-2" >
+                <h1 className='text-4xl font-semibold font-arial text-center' data-aos="fade-up">Book a Table for Dinner</h1>
+                <p className='text-[13px] p-4 font-semibold font-arial text-center' data-aos="fade-up">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex temporibus molestias obcaecati iure animi.</p>
+                <form action="#" className='flex flex-col justify-center items-center space-y-3' data-aos="fade-up">
                     <input className='w-[320px] h-[30px] border-b-2 outline-0' type="text" placeholder='Your Name' />
                     <input className='w-[320px] h-[30px] border-b-2 outline-0' type="text" placeholder='E-mail' />
                     <input className='w-[320px] h-[30px] border-b-2 outline-0' type="text" placeholder='Phone Number' />

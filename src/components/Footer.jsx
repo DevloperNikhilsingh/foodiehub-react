@@ -1,6 +1,8 @@
 import React from 'react'
+import { useNavigate } from 'react-router-dom'
 
 function Footer() {
+  const navigate = useNavigate();
   return (
     <div className='flex flex-col space-y-3 mt-0 bg-gray-300 p-2'>
 
@@ -9,10 +11,10 @@ function Footer() {
           FoodieHub
         </div>
         <div className="icon flex space-x-4">
-          <img src="facebook-176-svgrepo-com.svg" alt="" className='w-6 h-6 rounded-full' />
+          <a href="https://www.facebook.com/share/17hWPEPSP6/" target='_blank' rel='noreferrer'><img src="facebook-176-svgrepo-com.svg" alt="" className='w-6 h-6 rounded-full cursor-pointer'/></a>
           <img src="twitter-3-svgrepo-com.svg" alt="" className='w-6 h-6 rounded-full' />
-          <img src="instagram-svgrepo-com.svg" alt="" className='w-6 h-6 rounded-full' />
-          <img src="linkedin-svgrepo-com.svg" alt="" className='w-6 h-6 rounded-full' />
+          <a href=""><img src="instagram-svgrepo-com.svg" alt="" className='w-6 h-6 rounded-full' /></a>
+          <a href="https://www.linkedin.com/in/nikhil-singh-a58210372?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target='_blank' rel='noreferrer'><img src="linkedin-svgrepo-com.svg" alt="" className='w-6 h-6 rounded-full cursor-pointer' /></a>
         </div>
       </div>
 

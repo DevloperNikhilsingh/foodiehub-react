@@ -1,11 +1,7 @@
 export const menuData = [
   // Starters
   {
-  id: 1,
-  name: "Paneer Tikka",
-  category: "Starters",
-  price: 180,
-  image: "/Paneer_tika.jpg"
+  id: 1, name: "Paneer Tikka", category: "Starters", price: 180, image: "/Paneer_tika.jpg"
 },
   { id: 2, name: "Chicken Tandoori", category: "Starters", price: 250, image: "/Chicken_Tanduri.jpg" },
   { id: 3, name: "Veg Manchurian", category: "Starters", price: 160, image: "/Manchoorian.jpg" },

@@ -67,13 +67,13 @@ function Navbar({ setShowLogin }) {
       <div className="login-signup flex items-center space-x-2.5 ">
         <button  onClick={() => navigate("/login")}
         className='relative'>
-           <img src="user_person_profile_avatar_icon_190943.svg" alt="" className="w-6" />
+           <img src="user_person_profile_avatar_icon_190943.svg" alt="" className="w-6 hover:cursor-pointer" />
         </button>
 
         
         <button onClick={() => navigate("/cart")}
       className="relative">
-      <img src="shopping-cart-02-svgrepo-com.svg" className="w-6" alt="cart"/>
+      <img src="shopping-cart-02-svgrepo-com.svg" className="w-6 hover:cursor-pointer" alt="cart"/>
       </button>
       </div>
     </nav>
